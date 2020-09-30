@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(./bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  font-family: "Cabin Sketch", cursive;
+  height: 100vh;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+nav {
+  font-size: 3rem;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: black;
+  margin-right: 45px;
+}
+
+.nav-list li a:hover {
+  font-weight: 900;
+}
+
+h4 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.search-area {
+  margin-top: 20px;
+}
+
+/* Facts */
+
+.facts-display {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.facts-display div {
+  margin: 20px 0;
+  font-size: 1.75rem;
+}
+
+.random-titles {
+  font-size: 35px !important;
+  text-decoration: underline;
+  color: white;
+}
+
+.fact {
+  color: white;
+}
+
+.output {
+  margin: 20px 0;
+  font-size: 1.75rem;
+  color: white;
+}
